@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.head{
+    text-align: center;
+    font-size: 3rem;
+}
+#cards{
+    /* display: grid;
+    grid-template-columns: repeat(3,1fr); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;  
+}
+.lastbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lastbutton button{
+    height: 40px;
+    width: 200px;
+    border: none;
+    background-color: blue;
+    color: white;
+    border-radius: 7px;
+    /* margin: 10px; */
+}
+.grid-card img{
+    height:300px;
+    width:300px;
+    border: 2px solid black;
+
+}
+
+
+.conatiner{
+    width: 98%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   gap: 50px;
+   
+    
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content img{
+    width: 30px;
+}
+.content1{
+    display: flex;
+}
+
+.content1 button{
+    width: 50px;
+}
+    
+.content2{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 20px;
+}
+.content2 img{
+    width: 30px;
+}
+.content1{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+.container1{
+    width: 98%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    gap: 50px;
+    
+}
+#photo{
+  width: 30%;
+ 
+ padding: 20px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+}
+#photo img{
+    height: 200px;
+    width: 200px;
+   
+    border-radius: 50%;   
+}
+.content0{
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
+   
+}
+.content3{
+   
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px;
+   
+   
+}
+.content3 h3 {
+    font-size: 40px;
+}
+.content3 button{
+    width: 200px;
+    height: 50px;
+    border: none;
+    color: black;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.content9{
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+}
+.post1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     flex-direction: column;
+   
+    
+}
+.post1 p{
+    font-size: 30px;
+}
+.content5{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.content5 p{
+    font-size: 30px;
+}
+.content6{
+    width: 98%;
+    display: flex;
+    justify-content: space-around;
+
+}
+.role{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.role img{
+    width: 50px;
+}
+.content12{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+.content12 p{
+ font-size: 30px;
+}
+.content14{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.content14 p{
+    font-size: 30px;
+}
+.content15{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.content15 p{
+    font-size: 30px;
+}

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch API</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    .heading {
+        height: 40px;
+        width: 150px;
+        background-color: aliceblue;
+        border: 2px solid black;
+        color: black;
+        text-align: center;
+    }
+
+    .some {
+        height: 100vh;
+        width: 100%;
+    }
+
+    .ending {
+        height: 40px;
+        width: 150px;
+        background-color: aliceblue;
+        border: 2px solid black;
+        color: black;
+        text-align: center;
+
+    }
+
+    .islast {
+        height: 50vh;
+        width: 100%;
+    }
+
+    #search-text-input {
+        border-top: thin solid #e5e5e5;
+        border-right: thin solid #e5e5e5;
+        border-bottom: 0;
+        border-left: thin solid #e5e5e5;
+        box-shadow: 0px 1px 1px 1px #e5e5e5;
+        float: left;
+        height: 37px;
+        margin: .8em 0 0 .5em;
+        outline: 0;
+        padding: .4em 0 .4em .6em;
+        width: 283px;
+        
+    }
+
+    #button-holder {
+        background-color: #f1f1f1;
+        border-top: thin solid #e5e5e5;
+        box-shadow: 1px 1px 1px 1px #e5e5e5;
+        cursor: pointer;
+        float: left;
+        height: 37px;
+        margin: 11px 0 0 0;
+        text-align: center;
+        width: 50px;
+       
+    }
+
+    #button-holder img {
+        margin: 4px;
+        width: 20px;
+    }
+</style>
+
+<body>
+    <div class="some" onclick="getRandomColor()">
+        <h1 class="heading"> </h1>
+        <div class="conatiner">
+            <div class="content">
+                <img src="instagram.png" alt="instagram">
+                <h1>INSTAGRAM</h1>
+            </div>
+            <div>
+                <input type='text' placeholder='Search...' id='search-text-input' />
+                <div id="button-holder">
+
+                    <img src="icons8-search-30.png" alt="">
+
+                </div>
+            </div>
+            <div class="content2">
+
+                <img src="home.png" alt="">
+                <img src="messenger.png" alt="">
+                <img src="more.png" alt="">
+                <img src="heart.png" alt="">
+
+            </div>
+        </div>
+
+        <div class="container1">
+
+            <div id="photo">
+                <img src="download (1).jpg" alt="">
+            </div>
+
+            <div class="content3">
+                <div class="content0">
+                    <h3>M.shivani</h3>
+                    <button>Edit Profile</button>
+                    <img src="icons8-setting-50.png" alt="">
+                </div>
+                <div class="content9">
+                    <div class="post1">
+                        <h1>100</h1>
+                        <p>posts</p>
+                    </div>
+                    <div class="post1">
+                        <h1>100M</h1>
+                        <p>follower</p>
+                    </div>
+                    <div class="post1">
+                        <h1>100K</h1>
+                        <p>following</p>
+                    </div>
+                </div>
+
+                <div class="content5">
+                    <h1>M.shivani</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus expedita iste in ut
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="content6">
+            <div class="role">
+                <img src="grid-lines_5772482.png" alt="">
+                <h1>POSTS</h1>
+            </div>
+            <div class="role">
+                <img src="video_5948543.png" alt="">
+                <h1>REELS</h1>
+            </div>
+            <div class="role">
+                <img src="bookmark-icon.png" alt="">
+                <h1>SAVED</h1>
+            </div>
+            <div class="role">
+                <img src="live-video-stream-icon.png" alt="">
+                <h1>VIDEOS</h1>
+            </div>
+            <div class="role">
+                <img src="live-video-stream-icon.png" alt="">
+                <h1>VIDEOS</h1>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <h1 class="head">fetch fake store api</h1>
+
+
+    <div id="cards">
+
+    </div>
+
+    <div class="islast" onclick="getdifferentColor()">
+        <h1 class="ending"></h1>
+        <div class="lastbutton">
+            <button onclick="loadMoreImages()">Load More</button>
+
+        </div>
+        <div class="content12">
+            <p>Meta</p>
+            <p>About</p>
+            <p>Blog</p>
+            <p> Jobs</p>
+            <p> Help</p>
+            <p>API</p>
+            <p> Privacy</p>
+            <p> Terms</p>
+            <p>Top accounts</p>
+            <p> Hashtags</p>
+            <p> Locations</p>
+        </div>
+        <div class="content14">
+            <p>Instagram Lite </p>
+
+            <p> Contact uploading and non-users</p>
+        </div>
+
+
+        
+        <div class="content15">
+            <p>English (UK) © </p>
+
+
+            <p> 2022 Instagram from Meta</p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
